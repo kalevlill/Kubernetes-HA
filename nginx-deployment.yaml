@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: kalevx/nginx-example:v1
+          image: kalevx/nginx-example:v2
           ports:
             - containerPort: 80
           resources:
